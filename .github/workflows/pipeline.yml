@@ -30,4 +30,4 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t mlops-demo .
+          docker build -t mlops-demo:latest .
